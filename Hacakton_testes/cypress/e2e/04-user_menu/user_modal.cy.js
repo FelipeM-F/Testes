@@ -4,8 +4,7 @@
 describe('user tests', () => {
     beforeEach(() => {
         cy.clearAllCookies;
-        cy.loginAPI('pedrooliveira@email.com', '123456');
- 
+        cy.loginAPI('pedrooliveira@email.com', '123456'); 
         cy.get('#profileBtn').click();
     })
 

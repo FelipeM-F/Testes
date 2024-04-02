@@ -7,7 +7,7 @@ describe('beting tests', () => {
         cy.loginAPI('pedrooliveira@email.com', '123456');
   
     })
-/*
+
     it('wallet deposit', () => {
         let walletValue = 0;
         const depositValue = Math.floor(Math.random() * (100 - 1 + 1)) + 1;   
@@ -21,7 +21,7 @@ describe('beting tests', () => {
             cy.get('#wallet-value').should('text', `${walletValue + depositValue}`);
           });
     })
-*/
+
     it('beting', () => {
         cy.get('.bet-card').then($cards => {
             const randomIndex = Math.floor(Math.random() * $cards.length);  
