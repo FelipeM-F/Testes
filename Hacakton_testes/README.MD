@@ -1,5 +1,5 @@
 
-# Título do Projeto
+# Teste Hackaton
 
 Testes pensados para o projeto criado durante o Hackaton da TripleTen.
 
