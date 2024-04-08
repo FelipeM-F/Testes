@@ -5,7 +5,7 @@ Teste de um site pronto, que me indicaram para estudo de automatização no link
 
 O site é uma página de cadastro para uma possível ferramenta para encontrar dog walkers.
 
-O site possui apenas duas páginas uma principal, onde foi só realizado o teste do botão de redirecionamento e outra de cadastro.
+O site possui apenas duas páginas uma principal, onde foi realizado o teste do botão de redirecionamento e outra de cadastro.
 
 Na página de cadastro foram realizados alguns testes para verificar a validação dos campos e também um teste para inserção de mídia.
 
