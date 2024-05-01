@@ -14,7 +14,7 @@ describe('Testes dos formulários da tela inicial', () => {
     })
 
     it('numero_endereco_zero', () => {
-      const numeroEndereco = '0'
+      const numeroEndereco = '0';
       cy.get('[name=addressNumber]').type(`${numeroEndereco}`);
       cy.get('.button-register').click();
       cy.contains('Informe um número maior que zero')
